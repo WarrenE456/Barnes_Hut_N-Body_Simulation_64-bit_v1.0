@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\classDefinitions">
+      <UniqueIdentifier>{4430b391-e267-4842-bd27-7d693e697ca6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\classeImplementation">
+      <UniqueIdentifier>{3c545e78-1f86-4f6e-8032-c2f07cdf3900}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\functionImplementation">
+      <UniqueIdentifier>{4ae15be5-3793-4eb3-99b8-e19ac4a2aae4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\functionDefinitions">
+      <UniqueIdentifier>{00252c46-6b85-41b0-ad69-e08042383095}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="particle.cpp">
+      <Filter>Source Files\classeImplementation</Filter>
+    </ClCompile>
+    <ClCompile Include="quadNode.cpp">
+      <Filter>Source Files\classeImplementation</Filter>
+    </ClCompile>
+    <ClCompile Include="octNode.cpp">
+      <Filter>Source Files\classeImplementation</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>Source Files\classeImplementation</Filter>
+    </ClCompile>
+    <ClCompile Include="THREADspawnParticles.cpp">
+      <Filter>Source Files\functionImplementation</Filter>
+    </ClCompile>
+    <ClCompile Include="THREADgravityInsertDissassmble.cpp">
+      <Filter>Source Files\functionImplementation</Filter>
+    </ClCompile>
+    <ClCompile Include="THREADupdate.cpp">
+      <Filter>Source Files\functionImplementation</Filter>
+    </ClCompile>
+    <ClCompile Include="THREADloadingProgressLog.cpp">
+      <Filter>Source Files\functionImplementation</Filter>
+    </ClCompile>
+    <ClCompile Include="THREADcreaterootNodeBoundingBoxcpp.cpp">
+      <Filter>Source Files\functionImplementation</Filter>
+    </ClCompile>
+    <ClCompile Include="setConfig.cpp">
+      <Filter>Source Files\functionImplementation</Filter>
+    </ClCompile>
+    <ClCompile Include="readConifg.cpp">
+      <Filter>Source Files\functionImplementation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders.shader">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="enum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shaderPair.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="octNode.h">
+      <Filter>Header Files\classDefinitions</Filter>
+    </ClInclude>
+    <ClInclude Include="particle.h">
+      <Filter>Header Files\classDefinitions</Filter>
+    </ClInclude>
+    <ClInclude Include="quadNode.h">
+      <Filter>Header Files\classDefinitions</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>Header Files\classDefinitions</Filter>
+    </ClInclude>
+    <ClInclude Include="THREADspawnParticles.h">
+      <Filter>Header Files\functionDefinitions</Filter>
+    </ClInclude>
+    <ClInclude Include="THREADupdate.h">
+      <Filter>Header Files\functionDefinitions</Filter>
+    </ClInclude>
+    <ClInclude Include="scrollCallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="THREADloadingProgressLog.h">
+      <Filter>Header Files\functionDefinitions</Filter>
+    </ClInclude>
+    <ClInclude Include="THREADgravityInsertDissassemble.h">
+      <Filter>Header Files\functionDefinitions</Filter>
+    </ClInclude>
+    <ClInclude Include="THREADcreateRootNodeBoundingBox.h">
+      <Filter>Header Files\functionDefinitions</Filter>
+    </ClInclude>
+    <ClInclude Include="checkError.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="parseCompileCreateShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vectors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="configurations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="setConfig.h">
+      <Filter>Header Files\functionDefinitions</Filter>
+    </ClInclude>
+    <ClInclude Include="readConifg.h">
+      <Filter>Header Files\functionDefinitions</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
